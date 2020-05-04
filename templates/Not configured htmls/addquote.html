@@ -1,0 +1,22 @@
+{% block content %}
+    <h2 style = "text-align: center;">Quotes Display</h2>
+<form action = "" method = "post" novalidate>
+        {{ form.hidden_tag() }}
+            <legend>Enter Your Quote and Author Name</legend>
+           <p>
+            <div style = "font-size:20px; font-weight:bold; margin-left:150px;" >
+              {{ form.qauthor.label }} : {{ form.qauthor }} <br><br>
+              {% for error in form.qauthor.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+              {{ form.qstring.label }} : {{ form.qstring }} <br><br>
+              {% for error in form.qstring.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+           </p>
+           <p>{{ form.submit() }}</p>
+           </div>
+           </form>
+         </fieldset>
+      </form>
+{% endblock %}

@@ -1,0 +1,49 @@
+
+open cmd:
+
+1)First change the directory to required folder, this folder or project folder--
+
+doo this by " cd Path/to/directory"
+eg "cd C:\Users\dhira\Desktop\mywork\Virtual Envs projects\sumary"
+
+
+
+
+2)create or activate environment
+
+if creating new project create ne env by "virtualenv env_Name". [just this nothing else]
+
+if resuming old project, just activate previous environment--[ by "env_Name\Scripts\activate"]
+
+
+3)Install requirements;
+
+pip install -r requirements.txt---- always keep this file in project folder, 
+with rquired verions of modules written like this
+"""
+requests==2.21.0
+Flask==1.0.2
+nltk==3.4.5
+lxml==4.3.2
+"""
+
+
+4)Then just run the app by
+
+sumary\app.py
+
+5)To launch Idle in Environmen run--#To Run IDLE in virtualenv venv
+
+python -m idlelib
+
+7) You need/can export the myactualapp.py file directly to run if your application has only one file
+
+Type - set FLASK_APP=my_actual_App_Name.py
+and then type - flask run
+
+
+6) Open website on localhost
+
+Open http://127.0.0.1:5000/, customize project files and have fun.
+OR
+Running on http://localhost:5000/ (Press CTRL+C to quit) 
