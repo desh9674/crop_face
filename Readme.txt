@@ -1,12 +1,12 @@
 Ok, First of All I could create a Virtual Env for this but i dont't want to for tedious reasons.
-This is a one file project, which can be built upon more, but the again am not an HTML fan. I hate JAVA.
+This is a one file project, which can be built upon more, but the again am not an HTML fan.
 
 
 To get this working, you need
 Flask, cv2, PIL and Numpy installed.
 
 
-I kow Machine Learning, almost all of it(how to use it), but i did get any opportunity to apply it somewhere,
+
 Untill Now-
 
 Now to what this app is:
@@ -19,9 +19,6 @@ am going to use sqlite
 
 
 !!!Possibilities are many, just replace face to detect anything else, but it will need a trained model first.
-
-I just took the model into application. No one in entire world has done anything like this, I have looked.
-this is my Unique project.
 
 Code for multiple images and multiple faces in one image is in works. 
 
